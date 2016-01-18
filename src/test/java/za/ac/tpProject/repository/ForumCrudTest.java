@@ -16,7 +16,7 @@ import za.ac.tpProject.Domain.Forum;
 @WebAppConfiguration
 public class ForumCrudTest extends AbstractTestNGSpringContextTests {
 
-    private  long id;
+    /*private  long id;
 
     @Autowired
     private ForumRepository repository;
@@ -56,5 +56,5 @@ public class ForumCrudTest extends AbstractTestNGSpringContextTests {
         Forum newForum= repository.findById(id);
         Assert.assertNull(forum);
 
-    }
+    }*/
 }

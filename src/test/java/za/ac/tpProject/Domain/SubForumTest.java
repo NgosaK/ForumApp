@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
  */
 public class SubForumTest {
 
-    SubForum subForum = new SubForum.Builder().setRefForum(1).setId(123).
+    /*SubForum subForum = new SubForum.Builder().setRefForum(1).setId(123).
             setName("Ji").build();
 
     @Before
@@ -40,5 +40,5 @@ public class SubForumTest {
     public void testGetRefForum() throws Exception {
         Assert.assertEquals(1,subForum.getRefForum());
 
-    }
+    }*/
 }

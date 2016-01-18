@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
  */
 public class PrivateMessageTest {
 
-    PrivateMessage privateMessage = new PrivateMessage.Builder().setId(123).
+  /*  PrivateMessage privateMessage = new PrivateMessage.Builder().setId(123).
             setRefUserOne(123).setRefUserTwo(321).setText("ki").build();
 
     @Before
@@ -43,5 +43,5 @@ public class PrivateMessageTest {
     @Test
     public void testGetText() throws Exception {
         Assert.assertEquals("ki",privateMessage.getText());
-    }
+    }*/
 }

@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
  */
 public class PostTest {
 
-    Post post = new Post.Builder().setId(123).setRefTopic(12).
+   /* Post post = new Post.Builder().setId(123).setRefTopic(12).
             setRefUser(123).setText("cheese").setTitle("ki").build();
 
     @Before
@@ -52,5 +52,5 @@ public class PostTest {
     public void testGetRefUser() throws Exception {
         Assert.assertEquals(123,post.getRefUser());
 
-    }
+    }*/
 }

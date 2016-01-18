@@ -15,7 +15,7 @@ import static org.junit.Assert.*;
  */
 public class PostFactoryTest {
 
-    @Test
+    /*@Test
     public void testCreateBeverage() throws Exception {
 
         Map<String,String> values= new HashMap<String,String>();
@@ -27,5 +27,5 @@ public class PostFactoryTest {
 
         Assert.assertEquals(123,extra.getId());
 
-    }
+    }*/
 }

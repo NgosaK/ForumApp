@@ -16,7 +16,7 @@ import za.ac.tpProject.Domain.Extra;
 @WebAppConfiguration
 public class TestCrudExtra  extends AbstractTestNGSpringContextTests {
 
-    private  long id;
+   /* private  long id;
 
     @Autowired
     private ExtraRepository repository;
@@ -58,6 +58,6 @@ public class TestCrudExtra  extends AbstractTestNGSpringContextTests {
         Extra newExtra= repository.findById(id);
         Assert.assertNull(extra);
 
-    }
+    }*/
 
 }

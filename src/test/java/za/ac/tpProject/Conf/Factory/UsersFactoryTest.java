@@ -16,7 +16,7 @@ import static org.junit.Assert.*;
  */
 public class UsersFactoryTest {
 
-    @Before
+  /*  @Before
     public void setUp() throws Exception {
 
     }
@@ -40,5 +40,5 @@ public class UsersFactoryTest {
 
         Assert.assertEquals(123,users.getId());
 
-    }
+    }*/
 }

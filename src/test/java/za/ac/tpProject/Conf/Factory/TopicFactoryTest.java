@@ -16,7 +16,7 @@ import static org.junit.Assert.*;
  */
 public class TopicFactoryTest {
 
-    @Before
+   /* @Before
     public void setUp() throws Exception {
 
     }
@@ -37,5 +37,5 @@ public class TopicFactoryTest {
         Topic subForum= TopicFactory.createBeverage(values,123,321);
 
         Assert.assertEquals(123,subForum.getId());
-    }
+    }*/
 }

@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
  */
 public class ForumFactoryTest {
 
-    @Test
+  /*  @Test
     public void testCreateForum() throws Exception {
 
         Map<String,String> values= new HashMap<String,String>();
@@ -25,5 +25,5 @@ public class ForumFactoryTest {
         Forum extra= ForumFactory.createForum(values,123);
 
         Assert.assertEquals(123,extra.getId());
-    }
+    }*/
 }
